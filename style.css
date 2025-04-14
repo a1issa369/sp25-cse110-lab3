@@ -1,10 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(250, 219, 181);
+    color: rgba(55, 149, 149, 0.896);
 }
 
-style{
-    background-color: rgb(250, 219, 181);
-    color:hsl(115, 89%, 41%);
-    color: teal;
-    
-}
+
