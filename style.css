@@ -1,25 +1,53 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(250, 219, 181);
+    background-color: rgb(254, 222, 167);
     color: rgba(55, 149, 149, 0.896);
+   
     
 }
 
 :root {
-    --main-color: #3498db;
+    --main-color: #000000;
   }
   div {
-    color: var(--main-color, #333); /* fallback color */
+    color: var(--main-color, #661f1f); /* fallback color */
   }
 
 h1 {
-    font-size: 1.5em;
-    margin: 2rem;
-    padding: 5vh;
+    font-size: 2em;
+    margin: 1rem;
+    padding-left: 150px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
     
-    width: 200px;
-    height: 10cm;
-    border: 3pt solid teal;
+
+    width: 375px;
+    height: 100px;
+    border: 9pt  teal;
+    border-style: outset;
+  
+    margin-left: 375px;
+
+    border-width: 1cm;
+
+    border-color: rgb(81, 3, 120);
+    border-radius: 5px;
+  }
+
+  img {
+    margin-left: 580px;
+  }
+
+  h2 {
+    text-decoration: underline;
+    color: #813795;
+    margin-top: 40px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    
   }
 
 
