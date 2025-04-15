@@ -4,4 +4,15 @@ body{
     color: rgba(55, 149, 149, 0.896);
 }
 
+title {
+    font-size: 1em;
+    margin: 2rem;
+    padding: 5vh;
+
+    
+    width: 200px;
+    height: 10cm;
+    border-width: 3pt;
+}
+
 
