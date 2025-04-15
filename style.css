@@ -2,17 +2,24 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: rgb(250, 219, 181);
     color: rgba(55, 149, 149, 0.896);
+    
 }
 
-title {
-    font-size: 1em;
+:root {
+    --main-color: #3498db;
+  }
+  div {
+    color: var(--main-color, #333); /* fallback color */
+  }
+
+h1 {
+    font-size: 1.5em;
     margin: 2rem;
     padding: 5vh;
-
     
     width: 200px;
     height: 10cm;
-    border-width: 3pt;
-}
+    border: 3pt solid teal;
+  }
 
 
