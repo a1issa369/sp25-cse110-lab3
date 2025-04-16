@@ -1,8 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: rgb(254, 222, 167);
-    color: rgba(55, 149, 149, 0.896);
+    background-color: rgb(151, 221, 203);
+    color: rgba(36, 1, 88, 0.896);
    
     
 }
@@ -49,6 +49,18 @@ h1 {
     margin-bottom: 20px;
     margin-left: 5px;
     
+  }
+
+  image{
+    width: 300px;
+  }
+
+  .button:hover {
+    background-color: #ff0000;
+  }
+  
+  .button:active {
+    background-color: #e79b84;
   }
 
 
