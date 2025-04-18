@@ -52,14 +52,27 @@ h1 {
   }
 
   image{
-    width: 300px;
+      margin: 200px;
   }
 
-  .button:hover {
-    background-color: #ff0000;
+  button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    margin: 20px;
+    background-color: color-mix(in srgb, rgb(172, 32, 252) 70%, white 30%);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    display: inline-block;
+    text-decoration: unset;
+  }
+
+  button:hover {
+    background-color: #6c5ee8;
   }
   
-  .button:active {
+  button:active {
     background-color: #e79b84;
   }
 
