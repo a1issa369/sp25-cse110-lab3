@@ -1,26 +1,88 @@
+* {
+  font-family: 'Papyrus', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
 body{
-    font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: rgb(151, 221, 203);
+    background-color: rgb(0, 50, 116);
     color: rgba(36, 1, 88, 0.896);
    
     
 }
 
+section label{
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #960000;
+  color: rgb(0, 0, 0);
+  ul{
+    li{
+      background-color: aquamarine;
+    }
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+  .grid-box {
+    grid-template-columns: 10fr;
+  }
+}
+
+form:has(input[type="radio"]:checked) {
+  border: 2px solid lime;
+}
+
+
+
+footer {
+  color: paleturquoise;
+  background-color: color(display-p3 0.9 0.6 0.7 / 0.5);
+  position: relative;
+}
+
+
+header {
+  background-color: var(--accent-color, rgb(233, 184, 219));
+}
+
 :root {
     --main-color: #000000;
+    --accent-color: hsl(194, 78%, 91%);
   }
-  div {
+div {
     color: var(--main-color, #661f1f); /* fallback color */
+  }
+
+section {
+    font-size: 1.6em;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 1800px;
+    min-width: 200px;
   }
 
 h1 {
     font-size: 2em;
     margin: 1rem;
-    padding-left: 150px;
+    padding-left: 90px;
     padding-right: 70px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: auto;
+    
 
     
 
@@ -29,7 +91,6 @@ h1 {
     border: 9pt  teal;
     border-style: outset;
   
-    margin-left: 375px;
 
     border-width: 1cm;
 
@@ -38,7 +99,11 @@ h1 {
   }
 
   img {
-    margin-left: 400px;
+    margin: auto;
+    position: static;
+    display: block;
+
+  
   }
 
   h2 {
@@ -48,24 +113,34 @@ h1 {
     margin-right: 15px;
     margin-bottom: 20px;
     margin-left: 5px;
+    margin: 40px 15px 20px 5px;
     
   }
 
-  image{
-      margin: 200px;
+  #vid{
+      width: 500px;
+      border: 2px dashed;
+      border-color: slategray;
   }
+
+
+ 
+  /* Comment */
+  /*Why not another?*/
 
   button{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px; 
+    padding: 10px 15px 10px 15px;
     margin: 20px;
-    background-color: color-mix(in srgb, rgb(172, 32, 252) 70%, white 30%);
+    background-color: color-mix(in srgb, rgb(73, 80, 141) 70%, rgb(241, 181, 181) 30%);
     color: rgb(0, 0, 0);
     border: 2px solid black;
     display: inline-block;
     text-decoration: unset;
+    position: absolute;
   }
 
   button:hover {
@@ -76,4 +151,43 @@ h1 {
     background-color: #e79b84;
   }
 
+  input[type="radio"] {
+    margin: 5px;
+    background-color: #6c5ee8;
+    color: navajowhite;
+  }
+
+  ul > li {
+    list-style-type: square;
+  }
+
+  fieldset legend {
+    font-weight: bolder;
+  }
+
+  .grid-box {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+    background-color: #dce1ff;
+  }
+
+  .grid-box div {
+    background-color: #c527f1;
+    color: rgb(237, 255, 255);
+    padding: 10px;
+  }
+
+
+  form fieldset label {
+    font-size: 1rem;
+  }
+
+  .grid-box + p {
+    font-style: italic;
+  }
+
+  section ~ textarea {
+    font-style: italic;
+  }
 

@@ -7,6 +7,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content = "width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="warren_bear.png" sizes="32x32">
+    <style>
+        .lies {
+            background-color: yellow;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+        }
+
+
+    </style>
 
   </head>
   <body>
@@ -47,7 +62,7 @@
             <p>2 truths and 1 lie: funniest one below was...</p>
             <form>
                 <fieldset> 
-                    <legend>Choose what you think is the lie</legend>
+                    <legend>Choose what you think is the <strong class="lies">lie</strong></legend>
                     
                     <input type="radio" id = "swim" name = "boolean" value ="S"> 
                     <label for="swim">I have never learned to swim</label> <br/>
@@ -61,10 +76,17 @@
                 </fieldset>
             </form>
 
+            <div class="grid-box">
+                <div>Strongest Language?</div>
+                <div>Favorite meal?</div>
+                <div>Best Would You Rathers?</div>
+                <p>Why?</p>
+             </div>
+
             <audio controls> 
                 <source src="Erza.mp3" type="audio/mp3">
             </audio>
-            <video controls > 
+            <video controls id="vid"> 
                 <source src ="lab2Vid.mp4" type = "video/mp4">
             </video>
 
@@ -76,7 +98,7 @@
             </section>
         
 
-            <h3>Anything new to discuss?</h3>
+            <h3 style="color: rgb(52, 42, 101); font-size: 1.4em;">Anything new to discuss?</h3>
 
             <ol>
                 <li>We need to vote on a team mascot.
