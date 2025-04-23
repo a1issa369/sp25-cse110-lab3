@@ -139,7 +139,7 @@ h1 {
     padding-right: 15px; 
     padding: 10px 15px 10px 15px;
     margin: 20px;
-    background-color: color-mix(in srgb, rgb(135, 145, 223) 70%, rgb(255, 161, 161) 30%);
+    background-color: color-mix(in hsl, hsl(125 60 90), salmon 85%);
     color: rgb(0, 0, 0);
     border: 2px solid black;
     display: inline-block;
