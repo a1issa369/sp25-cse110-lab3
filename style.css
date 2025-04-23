@@ -13,7 +13,7 @@ body{
 
     & footer {
       & p {
-        color: red;
+        color: paleturquoise;
       }
     }
    
@@ -56,7 +56,6 @@ form:has(input[type="radio"]:checked) {
 
 
 footer {
-  color: paleturquoise;
 
   background-color: rgba(230, 150, 160, 0.5);
   position: relative;
