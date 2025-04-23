@@ -10,6 +10,12 @@ body{
     text-align: center;
     background-color: rgb(0, 50, 116);
     color: rgba(36, 1, 88, 0.896);
+
+    & footer {
+      & p {
+        color: red;
+      }
+    }
    
     
 }
@@ -194,4 +200,6 @@ h1 {
   section ~ textarea {
     font-style: italic;
   }
+
+  
 
